@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBBC7E1B19402980000ECB0C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBC7E1A19402980000ECB0C /* main.swift */; };
+		BBBC7E1D19402980000ECB0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBC7E1C19402980000ECB0C /* AppDelegate.swift */; };
+		BBBC7E1F19402980000ECB0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBBC7E1E19402980000ECB0C /* Images.xcassets */; };
+		BBBC7E2219402980000ECB0C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBBC7E2019402980000ECB0C /* MainMenu.xib */; };
+		BBBC7E2E19402980000ECB0C /* YoudaoLite_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBC7E2D19402980000ECB0C /* YoudaoLite_SwiftTests.swift */; };
+		BBE4598E19404F3C0029EC36 /* MAAttachedWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE4598D19404F3C0029EC36 /* MAAttachedWindow.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBBC7E2819402980000ECB0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBBC7E0D19402980000ECB0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBBC7E1419402980000ECB0C;
+			remoteInfo = "YoudaoLite-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBBC7E1519402980000ECB0C /* YoudaoLite-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YoudaoLite-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBBC7E1919402980000ECB0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBBC7E1A19402980000ECB0C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BBBC7E1C19402980000ECB0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBBC7E1E19402980000ECB0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BBBC7E2119402980000ECB0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BBBC7E2719402980000ECB0C /* YoudaoLite-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YoudaoLite-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBBC7E2C19402980000ECB0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBBC7E2D19402980000ECB0C /* YoudaoLite_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoudaoLite_SwiftTests.swift; sourceTree = "<group>"; };
+		BBE4598C19404F3C0029EC36 /* MAAttachedWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAAttachedWindow.h; sourceTree = "<group>"; };
+		BBE4598D19404F3C0029EC36 /* MAAttachedWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAAttachedWindow.m; sourceTree = "<group>"; };
+		BBE4598F19404FF30029EC36 /* YoudaoLite-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YoudaoLite-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBBC7E1219402980000ECB0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBBC7E2419402980000ECB0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBBC7E0C19402980000ECB0C = {
+			isa = PBXGroup;
+			children = (
+				BBBC7E1719402980000ECB0C /* YoudaoLite-Swift */,
+				BBBC7E2A19402980000ECB0C /* YoudaoLite-SwiftTests */,
+				BBBC7E1619402980000ECB0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBBC7E1619402980000ECB0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBBC7E1519402980000ECB0C /* YoudaoLite-Swift.app */,
+				BBBC7E2719402980000ECB0C /* YoudaoLite-SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBBC7E1719402980000ECB0C /* YoudaoLite-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				BBE4598C19404F3C0029EC36 /* MAAttachedWindow.h */,
+				BBE4598D19404F3C0029EC36 /* MAAttachedWindow.m */,
+				BBBC7E1C19402980000ECB0C /* AppDelegate.swift */,
+				BBBC7E1E19402980000ECB0C /* Images.xcassets */,
+				BBBC7E2019402980000ECB0C /* MainMenu.xib */,
+				BBBC7E1819402980000ECB0C /* Supporting Files */,
+			);
+			path = "YoudaoLite-Swift";
+			sourceTree = "<group>";
+		};
+		BBBC7E1819402980000ECB0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBE4598F19404FF30029EC36 /* YoudaoLite-Bridging-Header.h */,
+				BBBC7E1919402980000ECB0C /* Info.plist */,
+				BBBC7E1A19402980000ECB0C /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBBC7E2A19402980000ECB0C /* YoudaoLite-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBBC7E2D19402980000ECB0C /* YoudaoLite_SwiftTests.swift */,
+				BBBC7E2B19402980000ECB0C /* Supporting Files */,
+			);
+			path = "YoudaoLite-SwiftTests";
+			sourceTree = "<group>";
+		};
+		BBBC7E2B19402980000ECB0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBBC7E2C19402980000ECB0C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBBC7E1419402980000ECB0C /* YoudaoLite-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBBC7E3119402980000ECB0C /* Build configuration list for PBXNativeTarget "YoudaoLite-Swift" */;
+			buildPhases = (
+				BBBC7E1119402980000ECB0C /* Sources */,
+				BBBC7E1219402980000ECB0C /* Frameworks */,
+				BBBC7E1319402980000ECB0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YoudaoLite-Swift";
+			productName = "YoudaoLite-Swift";
+			productReference = BBBC7E1519402980000ECB0C /* YoudaoLite-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBBC7E2619402980000ECB0C /* YoudaoLite-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBBC7E3419402980000ECB0C /* Build configuration list for PBXNativeTarget "YoudaoLite-SwiftTests" */;
+			buildPhases = (
+				BBBC7E2319402980000ECB0C /* Sources */,
+				BBBC7E2419402980000ECB0C /* Frameworks */,
+				BBBC7E2519402980000ECB0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBBC7E2919402980000ECB0C /* PBXTargetDependency */,
+			);
+			name = "YoudaoLite-SwiftTests";
+			productName = "YoudaoLite-SwiftTests";
+			productReference = BBBC7E2719402980000ECB0C /* YoudaoLite-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBBC7E0D19402980000ECB0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = hewig;
+				TargetAttributes = {
+					BBBC7E1419402980000ECB0C = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					BBBC7E2619402980000ECB0C = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = BBBC7E1419402980000ECB0C;
+					};
+				};
+			};
+			buildConfigurationList = BBBC7E1019402980000ECB0C /* Build configuration list for PBXProject "YoudaoLite-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBBC7E0C19402980000ECB0C;
+			productRefGroup = BBBC7E1619402980000ECB0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBBC7E1419402980000ECB0C /* YoudaoLite-Swift */,
+				BBBC7E2619402980000ECB0C /* YoudaoLite-SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBBC7E1319402980000ECB0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBC7E1F19402980000ECB0C /* Images.xcassets in Resources */,
+				BBBC7E2219402980000ECB0C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBBC7E2519402980000ECB0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBBC7E1119402980000ECB0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE4598E19404F3C0029EC36 /* MAAttachedWindow.m in Sources */,
+				BBBC7E1D19402980000ECB0C /* AppDelegate.swift in Sources */,
+				BBBC7E1B19402980000ECB0C /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBBC7E2319402980000ECB0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBC7E2E19402980000ECB0C /* YoudaoLite_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBBC7E2919402980000ECB0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBBC7E1419402980000ECB0C /* YoudaoLite-Swift */;
+			targetProxy = BBBC7E2819402980000ECB0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBBC7E2019402980000ECB0C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBBC7E2119402980000ECB0C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBBC7E2F19402980000ECB0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBBC7E3019402980000ECB0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BBBC7E3219402980000ECB0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "YoudaoLite-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YoudaoLite-Swift/YoudaoLite-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		BBBC7E3319402980000ECB0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "YoudaoLite-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YoudaoLite-Swift/YoudaoLite-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		BBBC7E3519402980000ECB0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YoudaoLite-Swift.app/Contents/MacOS/YoudaoLite-Swift";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YoudaoLite-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		BBBC7E3619402980000ECB0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YoudaoLite-Swift.app/Contents/MacOS/YoudaoLite-Swift";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YoudaoLite-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBBC7E1019402980000ECB0C /* Build configuration list for PBXProject "YoudaoLite-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBBC7E2F19402980000ECB0C /* Debug */,
+				BBBC7E3019402980000ECB0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBBC7E3119402980000ECB0C /* Build configuration list for PBXNativeTarget "YoudaoLite-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBBC7E3219402980000ECB0C /* Debug */,
+				BBBC7E3319402980000ECB0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBBC7E3419402980000ECB0C /* Build configuration list for PBXNativeTarget "YoudaoLite-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBBC7E3519402980000ECB0C /* Debug */,
+				BBBC7E3619402980000ECB0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBBC7E0D19402980000ECB0C /* Project object */;
+}
